@@ -2,6 +2,8 @@
 
 This will iterate over a directory of JPEGs and sort them into folders based on and named for their resolutions.
 
+Requires that `imagemagick` is installed (the `identify` command comes from it).
+
 ```
 #!/bin/bash
 
