@@ -32,3 +32,25 @@ openssl rsa -noout -modulus -in server.key | openssl md5) | uniq`
 
 As an aside, if you want to check which key or cert a particular CSR belongs to, you can get the CSR hash to compare via:
 `openssl req -noout -modulus -in server.csr | openssl md5`
+
+## Alternate:
+
+TODO: Incorporate this into above
+
+I had two entries to do this same thing. Here's the other approach I took.
+
+### How to verify that a TLS/SSL key matches a given cert
+
+In the event that you have a .crt file and a .key file and want to verify that they go together:
+
+```
+openssl-modulus-key () {
+    openssl rsa -noout -modulus -in "$1" | openssl md5
+}
+openssl-modulus-crt () {
+    openssl x509 -noout -modulus -in "$1" | openssl md5
+}
+```
+
+As long as the hashes match, you should be all set.
+
