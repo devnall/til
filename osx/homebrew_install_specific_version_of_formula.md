@@ -14,7 +14,6 @@ just not very intuitive or user-friendly. Alternately, you can do it manually
 
 1. First, you'll need a GitHub repo to act as your custom tap. It makes things
    easier if the tap name begins with `homebrew-`. I created a new repo named
-   at
    [github.com/devnall/homebrew-custom](https://www.github.com/devnall/homebrew-custom) 
    More info on creating a tap can be [found
    here](https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap).
