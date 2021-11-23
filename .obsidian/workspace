@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "454cd28d6b672274",
+    "type": "split",
+    "children": [
+      {
+        "id": "e65ec2562636cd91",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "cli_tools/sql_snippets.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c29da8abacf82d43",
+    "type": "split",
+    "children": [
+      {
+        "id": "345ed0745e6082e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0ffa0076e2ca98e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3762aaf53f9a3f18",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5cf78be6da51c563",
+    "type": "split",
+    "children": [
+      {
+        "id": "851bcc59ce9ad66a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c658e469691beec1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "cli_tools/sql_snippets.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e65ec2562636cd91",
+  "lastOpenFiles": [
+    "cli_tools/sql_snippets.md",
+    "cli_tools/supermicro_fan_control.md",
+    "cli_tools/bang_shell_shortcuts.md",
+    "cli_tools/Bash Script Boilerplate.md",
+    "cli_tools/Untitled.md",
+    "README.md",
+    "linux/watch_for_a_process_to_finish.md",
+    "linux/crontab_of_all_users.md",
+    "linux/check_memory_utilization.md",
+    "kubernetes/PodToleratesNodeTaints_errors.md"
+  ]
+}
